@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/04/18 20:30:17.000.418,=C:\Users\neyro\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/25 12:35:54.000.046,=C:\Users\neyro\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/06/25 14:22:44.000.201,=C:\Users\neyro\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/06/25 14:30:03.000.458,=C:\Users\neyro\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/07/15 15:42:46.000.314,=C:\Users\neyro\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/07/15 15:45:51.000.174,C:\Users\neyro\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\neyro\OneDrive\Documentos\Projetos\DelphiToHero\ClienteVCL\src\View\DelphiToHero.View.Main.pas</Transaction>
+    <Transaction>2022/07/15 15:45:51.000.174,C:\Users\neyro\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\neyro\OneDrive\Documentos\Projetos\DelphiToHero\ClienteVCL\src\View\DelphiToHero.View.Main.dfm</Transaction>
+    <Transaction>2022/07/15 15:46:05.000.877,C:\Users\neyro\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\neyro\OneDrive\Documentos\Projetos\DelphiToHero\ClienteVCL\DelphiToHero.dproj</Transaction>
+    <Transaction>2022/07/15 16:20:00.878,=C:\Users\neyro\OneDrive\Documentos\Projetos\DelphiToHero\ClienteVCL\Unit1.pas</Transaction>
+    <Transaction>2022/07/15 16:20:54.331,C:\Users\neyro\OneDrive\Documentos\Projetos\DelphiToHero\ClienteVCL\src\View\Styles\DelphiToHero.View.Styles.Colors.pas=C:\Users\neyro\OneDrive\Documentos\Projetos\DelphiToHero\ClienteVCL\Unit1.pas</Transaction>
+    <Transaction>2022/07/15 16:52:59.293,=C:\Users\neyro\OneDrive\Documentos\Projetos\DelphiToHero\ClienteVCL\Unit1.pas</Transaction>
+    <Transaction>2022/07/15 16:54:09.076,C:\Users\neyro\OneDrive\Documentos\Projetos\DelphiToHero\ClienteVCL\src\View\Pages\DelphiToHero.View.Pages.Principal.pas=C:\Users\neyro\OneDrive\Documentos\Projetos\DelphiToHero\ClienteVCL\Unit1.pas</Transaction>
+    <Transaction>2022/07/15 16:54:09.076,C:\Users\neyro\OneDrive\Documentos\Projetos\DelphiToHero\ClienteVCL\src\View\Pages\DelphiToHero.View.Pages.Principal.dfm=C:\Users\neyro\OneDrive\Documentos\Projetos\DelphiToHero\ClienteVCL\Unit1.dfm</Transaction>
+    <Transaction>2022/07/15 16:57:01.826,=C:\Users\neyro\OneDrive\Documentos\Projetos\DelphiToHero\ClienteVCL\Unit1.pas</Transaction>
+    <Transaction>2022/07/15 16:57:22.185,C:\Users\neyro\OneDrive\Documentos\Projetos\DelphiToHero\ClienteVCL\src\View\Pages\DelphiToHero.View.Pages.Usuarios.pas=C:\Users\neyro\OneDrive\Documentos\Projetos\DelphiToHero\ClienteVCL\Unit1.pas</Transaction>
+    <Transaction>2022/07/15 16:57:22.185,C:\Users\neyro\OneDrive\Documentos\Projetos\DelphiToHero\ClienteVCL\src\View\Pages\DelphiToHero.View.Pages.Usuarios.dfm=C:\Users\neyro\OneDrive\Documentos\Projetos\DelphiToHero\ClienteVCL\Unit1.dfm</Transaction>
+    <Transaction>2022/07/15 17:04:26.420,=C:\Users\neyro\OneDrive\Documentos\Projetos\DelphiToHero\ClienteVCL\Unit1.pas</Transaction>
+    <Transaction>2022/07/15 17:05:08.514,C:\Users\neyro\OneDrive\Documentos\Projetos\DelphiToHero\ClienteVCL\src\View\Routers\DelphiToHero.View.Routers.pas=C:\Users\neyro\OneDrive\Documentos\Projetos\DelphiToHero\ClienteVCL\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

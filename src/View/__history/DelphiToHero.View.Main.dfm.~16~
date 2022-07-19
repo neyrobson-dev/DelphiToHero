@@ -1,0 +1,84 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'DelphiToHero'
+  ClientHeight = 665
+  ClientWidth = 911
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnlMain: TPanel
+    Left = 0
+    Top = 0
+    Width = 911
+    Height = 665
+    Align = alClient
+    BevelOuter = bvNone
+    TabOrder = 0
+    ExplicitTop = 8
+    object pnlMenu: TPanel
+      Left = 0
+      Top = 0
+      Width = 161
+      Height = 665
+      Align = alLeft
+      BevelOuter = bvNone
+      Color = clWhite
+      ParentBackground = False
+      TabOrder = 0
+      ExplicitLeft = -6
+      object pnlLogo: TPanel
+        Left = 0
+        Top = 0
+        Width = 161
+        Height = 57
+        Align = alTop
+        BevelOuter = bvNone
+        ParentBackground = False
+        TabOrder = 0
+      end
+    end
+    object pnlFull: TPanel
+      Left = 161
+      Top = 0
+      Width = 750
+      Height = 665
+      Align = alClient
+      BevelOuter = bvNone
+      ParentBackground = False
+      TabOrder = 1
+      ExplicitLeft = 167
+      object pnlToolbar: TPanel
+        Left = 0
+        Top = 0
+        Width = 750
+        Height = 57
+        Align = alTop
+        BevelOuter = bvNone
+        ParentBackground = False
+        TabOrder = 0
+      end
+      object pnlContainer: TPanel
+        Left = 0
+        Top = 57
+        Width = 750
+        Height = 608
+        Align = alClient
+        BevelOuter = bvNone
+        ParentBackground = False
+        TabOrder = 1
+        ExplicitLeft = 280
+        ExplicitTop = 312
+        ExplicitWidth = 185
+        ExplicitHeight = 41
+      end
+    end
+  end
+end

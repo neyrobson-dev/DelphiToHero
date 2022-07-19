@@ -1,0 +1,56 @@
+unit DelphiToHero.View.Main;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Buttons;
+
+type
+  TfrmPrincipal = class(TForm)
+    pnlMain: TPanel;
+    pnlMenu: TPanel;
+    pnlFull: TPanel;
+    pnlToolbar: TPanel;
+    pnlContainer: TPanel;
+    pnlLogo: TPanel;
+    btnPrincipal: TSpeedButton;
+    btnUsuarios: TSpeedButton;
+    procedure FormCreate(Sender: TObject);
+  private
+    procedure ApplyStyles;
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+uses
+  Router4D,
+  DelphiToHero.View.Styles.Colors;
+
+{$R *.dfm}
+
+procedure TfrmPrincipal.FormCreate(Sender: TObject);
+begin
+  ApplyStyles;
+
+  TRouter4D.Render<TPagePrincipal>.set
+end;
+
+procedure TfrmPrincipal.ApplyStyles;
+begin
+  pnlContainer.Color := COLOR_BACKGROUND;
+  pnlToolbar.Color := COLOR_BACKGROUND_TOP;
+  pnlMenu.Color := COLOR_BACKGROUND_MENU;
+  pnlLogo.Color := COLOR_BACKGROUND_DESTAK;
+  Self.Font.Color := FONT_COLOR;
+  Self.Font.Size := FONT_H6;
+  Self.Font.Name := FONT_FAMILY;
+end;
+
+end.
