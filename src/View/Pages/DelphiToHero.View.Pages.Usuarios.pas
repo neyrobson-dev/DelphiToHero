@@ -3,29 +3,16 @@ unit DelphiToHero.View.Pages.Usuarios;
 interface
 
 uses
-  Winapi.Windows,
-  Winapi.Messages,
-  System.SysUtils,
-  System.Variants,
-  System.Classes,
-  Vcl.Graphics,
-  Vcl.Controls,
-  Vcl.Forms,
-  Vcl.Dialogs,
-  Vcl.StdCtrls,
-  Vcl.ExtCtrls,
-  Router4D.Interfaces;
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, DelphiToHero.View.Pages.Form.Template, Vcl.ExtCtrls,
+  Vcl.StdCtrls;
 
 type
-  TPageUsuarios = class(TForm, iRouter4DComponent)
-    Panel1: TPanel;
-    Label1: TLabel;
+  TPageUsuarios = class(TFormTemplate)
   private
     { Private declarations }
   public
     { Public declarations }
-    function Render: TForm;
-    procedure UnRender;
   end;
 
 var
@@ -33,23 +20,6 @@ var
 
 implementation
 
-uses
-  DelphiToHero.View.Styles.Colors;
-
 {$R *.dfm}
-
-{ TPageUsuarios }
-
-function TPageUsuarios.Render: TForm;
-begin
-  Result := Self;
-
-  Panel1.Color := COLOR_BACKGROUND;
-end;
-
-procedure TPageUsuarios.UnRender;
-begin
-
-end;
 
 end.

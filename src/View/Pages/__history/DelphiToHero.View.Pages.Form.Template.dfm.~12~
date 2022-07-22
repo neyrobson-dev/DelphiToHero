@@ -1,0 +1,57 @@
+object FormTemplate: TFormTemplate
+  Left = 0
+  Top = 0
+  Align = alClient
+  BorderStyle = bsNone
+  Caption = 'FormTemplate'
+  ClientHeight = 478
+  ClientWidth = 951
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnlPrincipal: TPanel
+    Left = 0
+    Top = 0
+    Width = 951
+    Height = 478
+    Align = alClient
+    BevelOuter = bvNone
+    ParentBackground = False
+    TabOrder = 0
+    ExplicitLeft = 384
+    ExplicitTop = 220
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+    object pnlToolbar: TPanel
+      Left = 0
+      Top = 0
+      Width = 951
+      Height = 57
+      Align = alTop
+      BevelOuter = bvNone
+      ParentBackground = False
+      TabOrder = 0
+    end
+    object pnlContainer: TPanel
+      Left = 0
+      Top = 57
+      Width = 951
+      Height = 421
+      Align = alClient
+      BevelOuter = bvNone
+      ParentBackground = False
+      TabOrder = 1
+      ExplicitLeft = 384
+      ExplicitTop = 220
+      ExplicitWidth = 185
+      ExplicitHeight = 41
+    end
+  end
+end
