@@ -2,8 +2,8 @@ object frmPrincipal: TfrmPrincipal
   Left = 0
   Top = 0
   Caption = 'DelphiToHero'
-  ClientHeight = 706
-  ClientWidth = 1284
+  ClientHeight = 519
+  ClientWidth = 847
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -17,25 +17,23 @@ object frmPrincipal: TfrmPrincipal
   object pnlMain: TPanel
     Left = 0
     Top = 0
-    Width = 1284
-    Height = 706
+    Width = 847
+    Height = 519
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 0
-    ExplicitTop = 8
-    ExplicitWidth = 911
-    ExplicitHeight = 665
+    ExplicitWidth = 1282
+    ExplicitHeight = 706
     object pnlMenu: TPanel
       Left = 0
       Top = 0
       Width = 161
-      Height = 706
+      Height = 519
       Align = alLeft
       BevelOuter = bvNone
       ParentBackground = False
       TabOrder = 0
-      ExplicitLeft = -6
-      ExplicitHeight = 665
+      ExplicitHeight = 706
       object btnPrincipal: TSpeedButton
         Left = 0
         Top = 57
@@ -74,39 +72,36 @@ object frmPrincipal: TfrmPrincipal
     object pnlFull: TPanel
       Left = 161
       Top = 0
-      Width = 1123
-      Height = 706
+      Width = 686
+      Height = 519
       Align = alClient
       BevelOuter = bvNone
       ParentBackground = False
       TabOrder = 1
-      ExplicitLeft = 167
-      ExplicitWidth = 750
-      ExplicitHeight = 665
+      ExplicitWidth = 1121
+      ExplicitHeight = 706
       object pnlToolbar: TPanel
         Left = 0
         Top = 0
-        Width = 1123
+        Width = 686
         Height = 57
         Align = alTop
         BevelOuter = bvNone
         ParentBackground = False
         TabOrder = 0
-        ExplicitWidth = 750
+        ExplicitWidth = 1121
       end
       object pnlContainer: TPanel
         Left = 0
         Top = 57
-        Width = 1123
-        Height = 649
+        Width = 686
+        Height = 462
         Align = alClient
         BevelOuter = bvNone
         ParentBackground = False
         TabOrder = 1
-        ExplicitLeft = 280
-        ExplicitTop = 312
-        ExplicitWidth = 185
-        ExplicitHeight = 41
+        ExplicitWidth = 1121
+        ExplicitHeight = 649
       end
     end
   end

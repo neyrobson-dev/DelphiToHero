@@ -5,16 +5,12 @@ inherited PageUsuarios: TPageUsuarios
   inherited pnlPrincipal: TPanel
     inherited pnlToolbar: TPanel
       inherited pnlBotoes: TPanel
-        ExplicitLeft = 102
-        ExplicitTop = 0
-        ExplicitWidth = 751
-        ExplicitHeight = 57
         inherited lblTitulo: TLabel
-          Width = 107
-          Caption = 'Pagina de Usu'#225'rios'
+          Width = 3
+          Caption = ''
           Font.Style = [fsBold]
           ParentFont = False
-          ExplicitWidth = 107
+          ExplicitWidth = 3
         end
       end
     end

@@ -14,7 +14,11 @@ uses
   Vcl.Dialogs,
   Vcl.StdCtrls,
   Vcl.ExtCtrls,
-  Router4D.Interfaces, Vcl.Buttons, System.ImageList, Vcl.ImgList;
+  Router4D.Interfaces,
+  Vcl.Buttons,
+  System.ImageList,
+  Vcl.ImgList,
+  Bind4D;
 
 type
   TFormTemplate = class(TForm, iRouter4DComponent)
@@ -30,6 +34,9 @@ type
     procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
+    FEndPoint: string;
+    FPK: string;
+    FTitle: string;
     procedure ApplyStyle;
   public
     { Public declarations }
@@ -51,6 +58,7 @@ uses
 
 procedure TFormTemplate.ApplyStyle;
 begin
+  lblTitulo.Caption := FTitle;
   pnlPrincipal.Color := COLOR_BACKGROUND;
   pnlContainer.Color := COLOR_BACKGROUND;
   pnlToolbar.Color := COLOR_C1;
@@ -63,6 +71,7 @@ end;
 procedure TFormTemplate.FormCreate(Sender: TObject);
 begin
   ApplyStyle;
+  TBindFormJson.New.BindClassToForm(Self, FEndPoint, FPK, FTitle);
 end;
 
 function TFormTemplate.Render: TForm;
