@@ -1,0 +1,6 @@
+modulos/
+_history/
+_recovery/
+Win32/
+*.dcu
+*.exe
