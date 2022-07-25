@@ -1,0 +1,7 @@
+/modulos/*
+/_history
+/_recovery
+/Win32/debug/*.dcu
+/Win32/debug/*.exe
+*.dcu
+*.exe
