@@ -19,10 +19,12 @@ uses
   Vcl.ImgList,
   Vcl.Buttons,
   Bind4D,
-  Vcl.Menus, Data.DB, Vcl.Grids, Vcl.DBGrids;
+  Bind4D.Attributes,
+  Bind4D.Types,
+  Vcl.Menus;
 
 type
-  [ClassToBind('/users', 'id', 'Cadastro de Usuários')]
+  [ClassToBind('', '', 'Cadastro de Usuários')]
   TPageUsuarios = class(TFormTemplate)
   private
     { Private declarations }

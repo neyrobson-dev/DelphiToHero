@@ -93,13 +93,6 @@ begin
   edtPesquisar.Font.Size := FONT_H6;
   edtPesquisar.Font.Color := FONT_COLOR3;
   edtPesquisar.Color := COLOR_BACKGROUND;
-
-  dbgrdPesquisar.Font.Size := FONT_H5;
-  dbgrdPesquisar.Font.Color := FONT_COLOR4;
-  dbgrdPesquisar.Font.Name := FONT_FAMILY;
-  dbgrdPesquisar.TitleFont.Size := FONT_H5;
-  dbgrdPesquisar.TitleFont.Color := FONT_COLOR4;
-  dbgrdPesquisar.TitleFont.Name := FONT_FAMILY;
 end;
 
 procedure TFormTemplate.FormCreate(Sender: TObject);

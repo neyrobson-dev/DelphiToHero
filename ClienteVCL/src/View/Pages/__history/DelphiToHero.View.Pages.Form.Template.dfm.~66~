@@ -1,23 +1,294 @@
-inherited PageUsuarios: TPageUsuarios
-  Caption = 'PageUsuarios'
+object FormTemplate: TFormTemplate
+  Left = 0
+  Top = 0
+  Align = alClient
+  BorderStyle = bsNone
+  Caption = 'FormTemplate'
+  ClientHeight = 478
+  ClientWidth = 951
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
-  inherited pnlPrincipal: TPanel
-    inherited pnlToolbar: TPanel
-      inherited pnlBotoes: TPanel
-        inherited lblTitulo: TLabel
-          Width = 3
-          Caption = ''
+  object pnlPrincipal: TPanel
+    Left = 0
+    Top = 0
+    Width = 951
+    Height = 478
+    Align = alClient
+    BevelOuter = bvNone
+    ParentBackground = False
+    TabOrder = 0
+    object pnlToolbar: TPanel
+      Left = 0
+      Top = 0
+      Width = 951
+      Height = 77
+      Align = alTop
+      BevelOuter = bvNone
+      Padding.Left = 100
+      Padding.Right = 100
+      ParentBackground = False
+      TabOrder = 0
+      object pnlBotoes: TPanel
+        Left = 100
+        Top = 0
+        Width = 751
+        Height = 77
+        Align = alClient
+        BevelOuter = bvNone
+        TabOrder = 0
+        object lblTitulo: TLabel
+          Left = 0
+          Top = 0
+          Width = 36
+          Height = 77
+          Align = alLeft
+          Caption = 'lblTitulo'
+          Layout = tlCenter
+          ExplicitHeight = 13
+        end
+        object SpeedButton1: TSpeedButton
+          Left = 418
+          Top = 0
+          Width = 111
+          Height = 77
+          Align = alRight
+          Caption = 'RELAT'#211'RIOS'
+          ImageIndex = 10
+          Images = ilImages
+          Flat = True
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -11
+          Font.Name = 'Tahoma'
           Font.Style = [fsBold]
+          Layout = blGlyphTop
           ParentFont = False
-          ExplicitWidth = 3
+          ExplicitLeft = 640
+        end
+        object btnHistorico: TSpeedButton
+          Left = 529
+          Top = 0
+          Width = 111
+          Height = 77
+          Align = alRight
+          Caption = 'HIST'#211'RICO'
+          ImageIndex = 11
+          Images = ilImages
+          Flat = True
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -11
+          Font.Name = 'Tahoma'
+          Font.Style = [fsBold]
+          Layout = blGlyphTop
+          ParentFont = False
+          ExplicitLeft = 673
+        end
+        object btnConfiguracoes: TSpeedButton
+          Left = 640
+          Top = 0
+          Width = 111
+          Height = 77
+          Align = alRight
+          Caption = 'CONFIGURA'#199#213'ES'
+          ImageIndex = 7
+          Images = ilImages
+          Flat = True
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -11
+          Font.Name = 'Tahoma'
+          Font.Style = [fsBold]
+          Layout = blGlyphTop
+          ParentFont = False
+          ExplicitLeft = 690
+          ExplicitTop = 10
+        end
+      end
+    end
+    object pnlContainer: TPanel
+      Left = 0
+      Top = 77
+      Width = 951
+      Height = 401
+      Align = alClient
+      BevelOuter = bvNone
+      Padding.Left = 100
+      Padding.Right = 100
+      ParentBackground = False
+      TabOrder = 1
+      object Panel1: TPanel
+        Left = 100
+        Top = 0
+        Width = 751
+        Height = 401
+        Align = alClient
+        BevelOuter = bvNone
+        ParentBackground = False
+        TabOrder = 0
+        ExplicitLeft = 0
+        ExplicitTop = 6
+        ExplicitWidth = 951
+        object pnlAcoes1: TPanel
+          Left = 0
+          Top = 0
+          Width = 751
+          Height = 81
+          Align = alTop
+          BevelOuter = bvNone
+          ParentBackground = False
+          TabOrder = 0
+          object pnlLine: TPanel
+            Left = 0
+            Top = 80
+            Width = 751
+            Height = 1
+            Align = alBottom
+            BevelOuter = bvNone
+            ParentBackground = False
+            TabOrder = 0
+            ExplicitTop = 39
+          end
+          object Panel2: TPanel
+            Left = 0
+            Top = 0
+            Width = 751
+            Height = 80
+            Align = alClient
+            BevelOuter = bvNone
+            ParentBackground = False
+            TabOrder = 1
+            ExplicitHeight = 88
+            object btnNovo: TSpeedButton
+              Left = 0
+              Top = 0
+              Width = 111
+              Height = 80
+              Align = alLeft
+              Caption = 'NOVO'
+              ImageIndex = 0
+              Images = ilImages
+              Flat = True
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWindowText
+              Font.Height = -11
+              Font.Name = 'Tahoma'
+              Font.Style = [fsBold]
+              Layout = blGlyphTop
+              ParentFont = False
+              ExplicitLeft = 640
+              ExplicitHeight = 77
+            end
+            object btnAtualizar: TSpeedButton
+              Left = 111
+              Top = 0
+              Width = 111
+              Height = 80
+              Align = alLeft
+              Caption = 'ATUALIZAR'
+              ImageIndex = 5
+              Images = ilImages
+              Flat = True
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWindowText
+              Font.Height = -11
+              Font.Name = 'Tahoma'
+              Font.Style = [fsBold]
+              Layout = blGlyphTop
+              ParentFont = False
+              ExplicitLeft = 168
+              ExplicitTop = -6
+              ExplicitHeight = 72
+            end
+            object pnlPesquisar: TPanel
+              Left = 352
+              Top = 0
+              Width = 399
+              Height = 80
+              Align = alRight
+              BevelOuter = bvNone
+              Padding.Top = 25
+              ParentBackground = False
+              TabOrder = 0
+              object lblPesquisar: TLabel
+                Left = 0
+                Top = 25
+                Width = 399
+                Height = 13
+                Align = alTop
+                Caption = 'Pesquisar'
+                ExplicitTop = 29
+                ExplicitWidth = 295
+              end
+              object edtPesquisar: TEdit
+                Left = 0
+                Top = 38
+                Width = 399
+                Height = 25
+                Align = alTop
+                BorderStyle = bsNone
+                TabOrder = 0
+              end
+              object pnlLinePesquisar: TPanel
+                Left = 0
+                Top = 63
+                Width = 399
+                Height = 1
+                Align = alTop
+                BevelOuter = bvNone
+                ParentBackground = False
+                TabOrder = 1
+                ExplicitTop = 69
+                ExplicitWidth = 295
+              end
+            end
+          end
+        end
+        object pnlGridContainer: TPanel
+          Left = 0
+          Top = 81
+          Width = 751
+          Height = 320
+          Align = alClient
+          BevelOuter = bvNone
+          ParentBackground = False
+          TabOrder = 1
+          ExplicitLeft = 280
+          ExplicitTop = 184
+          ExplicitWidth = 185
+          ExplicitHeight = 41
+          object dbgrdPesquisar: TDBGrid
+            Left = 216
+            Top = 104
+            Width = 320
+            Height = 120
+            TabOrder = 0
+            TitleFont.Charset = DEFAULT_CHARSET
+            TitleFont.Color = clWindowText
+            TitleFont.Height = -11
+            TitleFont.Name = 'Tahoma'
+            TitleFont.Style = []
+          end
         end
       end
     end
   end
-  inherited ilImages: TImageList
+  object ilImages: TImageList
+    ColorDepth = cd32Bit
+    Height = 32
+    Width = 32
+    Left = 462
+    Top = 230
     Bitmap = {
-      494C01010C002400040020002000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
+      494C01010C002400040020002000FFFFFFFF2100FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000800000008000000001002000000000000000
       0100000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
@@ -2133,7 +2404,6 @@ inherited PageUsuarios: TPageUsuarios
       C1FFFF83C1FFFF830FFF00701E700078E07FFE07E07FFE07000180F01FFFFFF8
       F03FFC0FF03FFC0F0000C0601FFFFFF8F807E01FF807E01F8000E0000FFFFFF0
       FC00003FFC00003FC001F00100000000FF0000FFFF0000FFFFFFF80100000000
-      FFC003FFFFC003FFFFFFFE078000000100000000000000000000000000000000
-      000000000000}
+      FFC003FFFFC003FFFFFFFE0780000001}
   end
 end

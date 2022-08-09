@@ -18,7 +18,7 @@ uses
   Vcl.Buttons,
   System.ImageList,
   Vcl.ImgList,
-  Bind4D, Data.DB, Vcl.Grids, Vcl.DBGrids;
+  Bind4D;
 
 type
   TFormTemplate = class(TForm, iRouter4DComponent)
@@ -40,9 +40,7 @@ type
     pnlPesquisar: TPanel;
     lblPesquisar: TLabel;
     edtPesquisar: TEdit;
-    pnlLinePesquisar: TPanel;
-    pnlGridContainer: TPanel;
-    dbgrdPesquisar: TDBGrid;
+    Panel3: TPanel;
     procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
@@ -85,21 +83,13 @@ begin
   lblTitulo.Font.Color := FONT_COLOR3;
   lblTitulo.Font.Name := FONT_FAMILY;
 
-  pnlLinePesquisar.Color := COLOR_BACKGROUND_TOP;
-
+  Panel3.Color := FONT_COLOR3;
   lblPesquisar.Font.Size := FONT_H6;
   lblPesquisar.Font.Color := FONT_COLOR3;
 
   edtPesquisar.Font.Size := FONT_H6;
   edtPesquisar.Font.Color := FONT_COLOR3;
   edtPesquisar.Color := COLOR_BACKGROUND;
-
-  dbgrdPesquisar.Font.Size := FONT_H5;
-  dbgrdPesquisar.Font.Color := FONT_COLOR4;
-  dbgrdPesquisar.Font.Name := FONT_FAMILY;
-  dbgrdPesquisar.TitleFont.Size := FONT_H5;
-  dbgrdPesquisar.TitleFont.Color := FONT_COLOR4;
-  dbgrdPesquisar.TitleFont.Name := FONT_FAMILY;
 end;
 
 procedure TFormTemplate.FormCreate(Sender: TObject);
